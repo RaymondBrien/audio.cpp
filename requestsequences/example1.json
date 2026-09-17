@@ -1,0 +1,18 @@
+{
+  "requests": [
+    {
+      "id": "speaker1_output",
+      "text": "First text",
+      "voice_ref": "voices/speaker1.wav",
+      "reference_text": "Reference transcript 1",
+      "seed": 1234
+    },
+    {
+      "id": "speaker2_output",
+      "text": "Second text",
+      "voice_ref": "voices/speaker2.wav",
+      "reference_text": "Reference transcript 2",
+      "seed": 1234
+    }
+  ]
+}
