@@ -146,6 +146,13 @@ already exist in the configured path.
 docker run --rm -v "<models-dir>:/models:ro" ghcr.io/0xshug0/audio.cpp:full-cpu <cli|server> --model /models/<model> <...>
 ```
 
+For example, the repository's `tts-docker` just recipe runs the CPU CLI with
+the PocketTTS model and mounts the output directory:
+
+```bash
+just tts-docker
+```
+
 See the fully working [examples](#examples) below.
 
 ## Examples
